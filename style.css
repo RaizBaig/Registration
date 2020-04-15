@@ -1,25 +1,27 @@
 #submit{
     color: black;
     background-color:blue ;
+    font-size: 20px;
 }
 #reset{
     color: black;
     background-color:red;
+    font-size: 20px;
 }
 #Register{
-    color: aqua;
+    color: rgb(12, 13, 14);
     font-size: 50px;
     text-align: center;
 
 }
 #Body{
     color: black;
-    background-color: gray;
+    background-color: lightblue;
     background-position: center;
     border-width: 10px;
 }
 .lable{
-font-family: cursive ;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 color: black;
 border-width: 2px;
@@ -27,5 +29,6 @@ border-style: solid;
 border-color: black;
 border-radius: 5px;
 background-color:skyblue;
+
 
 }
