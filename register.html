@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body id=Body>
+        <h1 id=Register>Registration Form</h1>
+        <form>
+            <label for="name" id=Name><b>Nmae</b></label>
+            <input type="text" name="name" id="name" placeholder="Enter Name"><br><br>
+            <label for="email" ><b>Email</b></label>
+            <input type="text" name="email" id="email" placeholder="Enter Email id"><br><br>
+            <lable for="address"><b>Address</b></lable>
+            <textarea name="address" id="address" rows="3" cols="10" placeholder="Enter address"></textarea><br><br>
+            <lable for="Gender"><b>Gender</b></lable>
+            <input type="radio" name="Gender" id="gender" value="Male">Male
+            <input type="radio" name="Gender" id="gender" value="Female">Female
+            <input type="radio" name="Gender" id="gender" value="Other">Other<br><br>
+            <label for="dob"><b>DOB</b></label>
+            <input type="text" name="dob" id="dob" placeholder="DD/MM/YYYY"><br><br>
+            <label for="graduation"><b>Graduation</b></label>
+            <select>
+                <option value=BE/Btech>BE/Btech</option>
+                <option value=B.com>B.com</option>
+                <option value=B.Ed>B.Ed</option>
+            </select><br><br>
+            <label for=Technologies><b>Technologies</b></label>
+            <input type="checkbox" value="C">C
+            <input type="checkbox" value=Java>Java
+            <input type="checkbox"value=C++>C++
+            <input type="checkbox" value=JS>JS
+            <input type="checkbox" value=Html>Html<br><br>
+            <button type="submit" value=Submit id="submit">Submit</button>
+            <button type="reset" value=Reset id="reset">Reset</button>
+        </form>
+        
+    </body>
+
+</html>
