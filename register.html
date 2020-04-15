@@ -7,15 +7,15 @@
         <h1 id=Register>Registration Form</h1>
         <form>
             <label for="name" class="lable"><b>Name</b></label>
-            <input type="text" name="name" id="name" placeholder="Enter Name"><br><br>
+            <input type="text" class= "text-view" name="name" id="name" placeholder="Enter Name"><br><br>
             <label for="email" class="lable" ><b>Email</b></label>
-            <input type="text" name="email" id="email" placeholder="Enter Email id"><br><br>
+            <input type="text" class= "text-view" name="email" id="email" placeholder="Enter Email id"><br><br>
             <lable for="address" class="lable"><b>Address</b></lable>
-            <textarea name="address" id="address" rows="3" cols="10" placeholder="Enter address"></textarea><br><br>
+            <textarea name="address" class= "text-view" id="address" rows="5" cols="20" placeholder="Enter address"></textarea><br><br>
             <lable for="Gender" class="lable"><b>Gender</b></lable>
-            <input type="radio" name="Gender" id="gender" value="Male">Male
-            <input type="radio" name="Gender" id="gender" value="Female">Female
-            <input type="radio" name="Gender" id="gender" value="Other">Other<br><br>
+            <input type="radio" name="Gender"  id="male" value="Male"><b class="radio">Male</b>
+            <input type="radio" name="Gender" id="female" value="Female"><b class="radio">Female</b>
+            <input type="radio" name="Gender" id="other" value="Other" ><b class="radio">Other</b><br><br>
             <label for="dob" class="lable"><b>DOB</b></label>
             <input type="text" name="dob" id="dob" placeholder="DD/MM/YYYY"><br><br>
             <label for="graduation" class="lable"><b>Graduation</b></label>
@@ -30,8 +30,8 @@
             <input type="checkbox"value=C++>C++
             <input type="checkbox" value=JS>JS
             <input type="checkbox" value=Html>Html<br><br>
-            <button type="submit" value=Submit id="submit">Submit</button>
-            <button type="reset" value=Reset id="reset">Reset</button>
+            <button type="submit" value=Submit id="submit"><b>Submit</b></button>
+            <button type="reset" value=Reset id="reset"><b>Reset</b></button>
         </form>
         
     </body>

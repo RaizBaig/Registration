@@ -2,11 +2,15 @@
     color: black;
     background-color:blue ;
     font-size: 20px;
+    margin-left: 30%;
+    border-radius: 20cm;
 }
 #reset{
     color: black;
     background-color:red;
     font-size: 20px;
+    border-radius: 20cm;
+
 }
 #Register{
     color: rgb(12, 13, 14);
@@ -29,6 +33,7 @@ border-style: solid;
 border-color: black;
 border-radius: 5px;
 background-color:skyblue;
-
-
+}
+.text-view{
+    background-color:white;
 }
