@@ -8,9 +8,24 @@
 }
 #Register{
     color: aqua;
+    font-size: 50px;
+    text-align: center;
 
 }
 #Body{
     color: black;
-    background-color: darkslategray;
+    background-color: gray;
+    background-position: center;
+    border-width: 10px;
+}
+.lable{
+font-family: cursive ;
+font-size: 20px;
+color: black;
+border-width: 2px;
+border-style: solid;
+border-color: black;
+border-radius: 5px;
+background-color:skyblue;
+
 }
