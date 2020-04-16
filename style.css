@@ -80,3 +80,9 @@ img{
   width: 150px;
   margin-top:20px;
 }
+h3{
+    color: blue;
+    text-align: end;
+    margin-right: 100px;
+    font-size: medium;
+}
